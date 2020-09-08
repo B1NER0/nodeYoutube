@@ -5,7 +5,7 @@ app.get('/', (req, res) => {
     res.send("Welcome to the hompage baby");
 });
 
-const port = process.env.port || 3000;
+const port = process.env.port || 8000;
 app.listen(port, () => {
     console.log("WAZAPPP");
 });
